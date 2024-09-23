@@ -1,10 +1,9 @@
 main:
 
-  # - title: Continual Learning for Abdominal Multi-Organ and Tumor Segmentation
-  #   authors: with Yixiao Zhang, Xinyi Li, Huimiao Chen, Alan Yuille, <strong>Yaoyao Liu*</strong>, Zongwei Zhou* (*Corresponding authors)
-  #   conference_short: MICCAI
-  #   conference: International Conference on Medical Image Computing and Computer-Assisted Intervention <strong>(MICCAI)</strong>, 2023.
-  #   pdf: https://arxiv.org/pdf/2306.00988.pdf
-  #   code: https://github.com/MrGiovanni/ContinualLearning
-  #   bibtex: https://bib.yliu.me/MICCAI23.txt
-  #   notes: Early Accept
+  - title: >
+      The Concrete Security of Two-Party Computation: Simple Definitions, and Tight Proofs for PSI and OPRFs
+    authors: with Mihir Bellare, Doreen Riepel and Ali Aldakheel
+    conference_short: Asiacrypt, 2024
+    conference: International Conference on the Theory and Application of Cryptology and Information Security, 2024.
+    eprint: https://eprint.iacr.org/2024/1476
+
