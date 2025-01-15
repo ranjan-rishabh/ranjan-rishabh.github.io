@@ -1,9 +1,7 @@
 main:
-
   - title: >
       The Concrete Security of Two-Party Computation: Simple Definitions, and Tight Proofs for PSI and OPRFs
     authors: with Mihir Bellare, Doreen Riepel and Ali Aldakheel
     conference_short: Asiacrypt, 2024
     conference: International Conference on the Theory and Application of Cryptology and Information Security, 2024.
     eprint: https://eprint.iacr.org/2024/1476
-

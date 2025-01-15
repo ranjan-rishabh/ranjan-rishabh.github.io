@@ -16,7 +16,7 @@
     {% endif %}
   </div> -->
   <div class="col-sm-9">
-      <div class="title"><a href="{{ link.eprint }}">{{ link.title }}</a></div>
+      <div class="title"><a href="{{ link.eprint }}" target="_blank">{{ link.title }}</a></div>
       <div class="author">{{ link.authors }}</div>
       <div class="periodical"><em>{{ link.conference_short }}</em>
       </div>
