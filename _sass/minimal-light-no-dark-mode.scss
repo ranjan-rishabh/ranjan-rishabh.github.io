@@ -243,15 +243,17 @@ a:hover small {
 
 body {
   display: flex;
-  background-color: #20212b;
+  background-color: #fafdfd;
+  // overflow: scroll;
+  overscroll-behavior-y: none;
 }
 
 .wrapper {
   width: 1200px;
   margin:0 auto;
   min-height: 100vh;
-  // overflow: hidden;
-  background-color: #ecfbfb;
+  overflow: hidden;
+  background-color: #fafdfd;
 }
 
 blockquote {
@@ -372,7 +374,7 @@ header ul a strong {
 section {
   width:825px;
   float:right;
-  padding-top:4.0em;
+  padding-top:2.0em;
   padding-bottom:50px;
 }
 

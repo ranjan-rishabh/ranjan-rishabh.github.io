@@ -169,9 +169,10 @@ papertitle {
 
 @media (prefers-color-scheme: dark) {
     body {
-        background-color: #002f2f;
+        background-color: #041111;
         color: #dadbdf;
         display: flex;
+        overscroll-behavior-y: none;
     }
 
     autocolor{
@@ -309,7 +310,8 @@ a:hover small {
   width: 1200px;
   margin:0 auto;
   min-height: 100vh;
-  background-color: #20212b;
+  overflow: hidden;
+  background-color: #041111;
 }
 
 blockquote {
@@ -446,7 +448,7 @@ header ul a strong {
 section {
   width:825px;
   float:right;
-  padding-top:4.0em;
+  padding-top:2.0em;
   padding-bottom:50px;
 }
 
