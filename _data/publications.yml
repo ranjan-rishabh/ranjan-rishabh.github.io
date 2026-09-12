@@ -1,7 +1,25 @@
 main:
   - title: >
+      Just-in-time-OPRFs and a modular framework for fast private set intersection
+    authors: with Mihir Bellare, Doreen Riepel
+    conference_short: Crypto, 2026
+    conference: Annual International Cryptology Conference, 2026.
+    eprint: https://eprint.iacr.org/2026/1532
+    slides: assets/files/slides/JIT-C26.pdf
+
+  - title: >
+      UCX is all you need: A universal transform for committing authenticated encryption
+    authors: with Mihir Bellare, Nujud Senan, Basel Alomair
+    conference_short: Crypto, 2026
+    conference: Annual International Cryptology Conference, 2026.
+    eprint: https://eprint.iacr.org/2026/1222
+    slides: assets/files/slides/CAE-C26.pdf
+
+  - title: >
       The Concrete Security of Two-Party Computation: Simple Definitions, and Tight Proofs for PSI and OPRFs
     authors: with Mihir Bellare, Doreen Riepel and Ali Aldakheel
     conference_short: Asiacrypt, 2024
     conference: International Conference on the Theory and Application of Cryptology and Information Security, 2024.
     eprint: https://eprint.iacr.org/2024/1476
+    slides: assets/files/slides/2PC-AC24.pdf
+    video: https://youtu.be/Rzx7cPgfdTg?si=beHUhNpBKKm2I3o-&t=1252

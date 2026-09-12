@@ -7,7 +7,7 @@
   display: list-item;
   position: relative;
   padding-right: 15px;
-  margin-left: 2em;
+  margin-left: 1em;
   list-style: disc;
 }
 
@@ -177,8 +177,8 @@ papertitle {
     }
 
     .image.avatar img {
-      border-radius: 100%;
-      width: 50%;
+      border-radius: 10%;
+      width: 75%;
       padding: 20px;
       // border: 1px solid #ddd;
       // padding: 3px;
@@ -243,17 +243,55 @@ a:hover small {
 
 body {
   display: flex;
-  background-color: #fafdfd;
+  background-color: #ffffff;
   // overflow: scroll;
-  overscroll-behavior-y: none;
+  overscroll-behavior-y: auto;
+}
+
+.top-banner {
+  background-color: #000000; /* Change to your brand color */
+  color: #ffffff;
+  width: 100%;
+  padding: 10px 0;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.banner-content {
+  // max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  flex-wrap: wrap; /* Wraps items cleanly on small mobile screens */
+  gap: 15px;
+  font-size: 15px;
+}
+
+.banner-btn {
+  background-color: #000000;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: background-color 0.5s;
+}
+
+.banner-btn:hover {
+  background-color: #ffffff;
 }
 
 .wrapper {
-  width: 1200px;
-  margin:0 auto;
+  width: 95%;
+  margin:2em auto;
   min-height: 100vh;
   overflow: hidden;
-  background-color: #fafdfd;
+  background-color: #ffffff;
 }
 
 blockquote {
@@ -302,15 +340,13 @@ img {
 }
 
 header {
-  width:350px;
+  width:20%;
   float:left;
   position:fixed;
   -webkit-font-smoothing:subpixel-antialiased;
-  padding-top:4.0em;
+  padding-top:2.0em;
   text-align:center
 }
-
-
 
 header ul {
   list-style:none;
@@ -372,10 +408,11 @@ header ul a strong {
 }
 
 section {
-  width:825px;
+  width:70%;
   float:right;
   padding-top:2.0em;
   padding-bottom:50px;
+  padding-right: 2em;
 }
 
 small {
@@ -390,10 +427,10 @@ hr {
 }
 
 footer {
-  width:350px;
+  width:20%;
   float:left;
   position:fixed;
-  bottom:30px;
+  bottom:10px;
   -webkit-font-smoothing:subpixel-antialiased;
   text-align:center;
 }
@@ -439,7 +476,7 @@ footer {
 
 
    .image.avatar img {
-        border-radius: 100%;
+        border-radius: 10%;
         width: 117px;
         padding:20px;
       }
@@ -480,7 +517,7 @@ footer {
   }
 
   .image.avatar img {
-      border-radius: 100%;
+      border-radius: 10%;
       width: 95px;
       padding:20px;
   }

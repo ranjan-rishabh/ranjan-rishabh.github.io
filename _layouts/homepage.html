@@ -36,10 +36,19 @@
 
   </head>
   <body>
+    <div class="top-banner">
+      <div class="banner-content">
+        <a href="#about" class="banner-btn">About</a>
+        <a href="#publications" class="banner-btn">Publications</a>
+        <a href="#talks" class="banner-btn">Talks</a>
+        <a href="#teaching" class="banner-btn">Teaching</a>
+        <a href="#service" class="banner-btn">Service</a>
+      </div>
+    </div>
     <div class="wrapper">
       <header>
         {% if site.avatar %}
-        <a class="image avatar"><img src="{{ site.avatar }}" alt="avatar" /></a>
+        <div class="image avatar"><img src="{{ site.avatar }}" alt="avatar" /></div>
         {% endif %}
 
         <h1>{{ site.name }}</h1>

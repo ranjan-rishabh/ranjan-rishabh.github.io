@@ -1,10 +1,9 @@
-<h2 id="publications" style="margin: 2px 0px -15px;">Publications</h2>
+<h2 id="publications" style="margin: 2px 0px 10px;">Selected Publications</h2>
 
 <div class="publications">
 <ol class="bibliography">
 
 {% for link in site.data.publications.main %}
-
 <li>
 <div class="pub-row">
   <!-- <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
@@ -19,6 +18,16 @@
       <div class="title"><a href="{{ link.eprint }}" target="_blank">{{ link.title }}</a></div>
       <div class="author">{{ link.authors }}</div>
       <div class="periodical"><em>{{ link.conference_short }}</em>
+        {% if link.slides %}
+        <a href="{{ link.slides }}" class="btn" role="button" target="_blank">
+          <i class="fa-regular fa-file-powerpoint"></i> 
+        </a>
+        {% endif %}
+        {% if link.video %}
+        <a href="{{ link.video }}" class="btn" role="button" target="_blank">
+          <i class="fa-regular fa-circle-play"></i>
+        </a>
+        {% endif %}
       </div>
     <!-- <div class="links">
       {% if link.pdf %} 
@@ -43,9 +52,9 @@
   </div>
 </div>
 </li>
-<br>
-
 {% endfor %}
 
 </ol>
 </div>
+
+<br>
